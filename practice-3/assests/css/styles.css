@@ -1,0 +1,120 @@
+header {
+    /* display: flex; */
+    /* font: 600 12px Arial; */
+    /* letter-spacing: 3px; */
+    text-align: right;
+    
+  }
+
+.area-logo{
+    background-color: aqua;
+} 
+
+.area-navbar{
+    background-color: aquamarine;
+}
+
+.area-navbar a{
+    /* margin-right: 10px; */
+    margin: 10px 8px;
+}
+
+.area-text0{
+    background-color: bisque;
+    
+}
+
+ /* kenapa kalo dikasih margin jadi tumpah ? */
+.area-gambar0{
+    background-color: blue; 
+    
+}
+
+.area-text0 h1{
+    padding-bottom: 20px;
+    /* border-style:solid ; */
+    margin-bottom: 0px !important;
+}
+
+.area-text0 div{
+    /* border-style:dotted ; */
+    margin-bottom: 20px;
+}
+
+.button1{
+    padding: 5px 15px !important;
+}
+
+.area-kartu0{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+
+.area-kartu0 div{
+    margin: 20px;
+}
+
+.area-why0{/* kalo percent inget kalo tinggi coba dikasi maxheight nya berapa kalo ga meleber kemana mana*/
+    /* border-style: dotted; */
+    /* background-color: brown; */
+    padding: 5vw 10vw;
+}
+
+/*coba perhatiin mana descendant mana anak sumber: https://www.w3schools.com/css/tryit.asp?filename=trycss_sel_element_gt */
+/* perbedaan descendant sama child ada di: https://www.w3schools.com/css/css_combinators.asp */
+.area-why0 > div:first-child{
+    /* background-color: bisque; */
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+
+.carousel-item img {
+    object-position: center;
+    object-fit: cover;
+    /* height: 500px; */
+    /* height: 50vh; */
+  }
+
+.area-testi0{
+    text-align: center;
+}  
+
+.area-testi0 h3, .area-testi0 h6, .area-why0 div:first-child h3 , .area-why0 div:first-child h6  {
+    line-height: 1.8; /* diperhatikan, ini lineheight ngatur tinggi kata ke kotak, mirip kek padding cuma bagus memang dalam 1 div terus dipisah sama <br> */
+}
+
+.area-getstart0{
+    /* margin: 80px; */
+}
+.square {
+    color: aliceblue;
+    background-color: #0D28A6;
+    padding: 80px 0;
+    text-align: center;
+    margin: 50px 100px;
+    height: 350px;
+    
+}
+
+.area-text1 div{
+    /* margin: 0 50px 35px 50px; */
+    width: 500px;
+    font-weight: lighter;
+}
+
+.area-faq1{
+    padding: 80px 100px;
+}
+
+.accor2{
+    /* margin: 1px; */
+}
+
+.accor1{
+    border-top: 1px solid !important;
+}
+
