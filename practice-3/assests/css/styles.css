@@ -3,31 +3,72 @@ header {
     /* font: 600 12px Arial; */
     /* letter-spacing: 3px; */
     text-align: right;
-    
   }
 
 .area-logo{
-    background-color: aqua;
+    /* position relative absolute kayak bulet bulet yang diajarin sama Kareka */
+    /* border-style: dotted; */
+    position: relative;
 } 
 
-.area-navbar{
-    background-color: aquamarine;
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #5CB85F !important;
+    border-style: none;
+    font-weight: 500;
+
+}
+
+.area-logo > img{
+    right: 0;
+    bottom: 15px;
+    position: absolute;
+    width: 99.5px;
+}
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 100px;
 }
 
 .area-navbar a{
-    /* margin-right: 10px; */
     margin: 10px 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
 
-.area-text0{
-    background-color: bisque;
-    
-}
 
- /* kenapa kalo dikasih margin jadi tumpah ? */
+
 .area-gambar0{
-    background-color: blue; 
+    /* border-style: dotted; */
+ }
+.gambar0{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.gambar1{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    /* border-style: dotted; */
+
+}
+
+.gambar2{
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    /* border-style: dotted; */
+    display: block; /*supaya kotak displaynya si img ambil width sampe 100% , bukan gambarnya*/
+    margin-left: auto;
+    margin-right: auto;
     
+}
+.area-text0{
+    padding-left:10vw;
+    padding-right: 200px;
 }
 
 .area-text0 h1{
@@ -43,12 +84,15 @@ header {
 
 .button1{
     padding: 5px 15px !important;
+    color: white !important; 
 }
 
+/* supaya tinggi kartu sama, sumber : https://codepen.io/Kerrys7777/pen/QWgwEeG , kasih align-items:stretch  */
 .area-kartu0{
     display: flex;
-    justify-content: center;
-    align-items:center ;
+    justify-content: space-between;
+    align-items:stretch ;
+    padding: 0px;
     
 }
 
@@ -59,7 +103,7 @@ header {
 .area-why0{/* kalo percent inget kalo tinggi coba dikasi maxheight nya berapa kalo ga meleber kemana mana*/
     /* border-style: dotted; */
     /* background-color: brown; */
-    padding: 5vw 10vw;
+    padding:1vh 10vw;
 }
 
 /*coba perhatiin mana descendant mana anak sumber: https://www.w3schools.com/css/tryit.asp?filename=trycss_sel_element_gt */
@@ -88,15 +132,16 @@ header {
 }
 
 .area-getstart0{
-    /* margin: 80px; */
+    padding-right: 100px;
 }
 .square {
     color: aliceblue;
     background-color: #0D28A6;
     padding: 80px 0;
     text-align: center;
-    margin: 50px 100px;
+    margin: 50px 10vw;
     height: 350px;
+    border-radius: 10px;
     
 }
 
@@ -107,7 +152,7 @@ header {
 }
 
 .area-faq1{
-    padding: 80px 100px;
+    padding: 80px 10vw;
 }
 
 .accor2{
@@ -118,3 +163,36 @@ header {
     border-top: 1px solid !important;
 }
 
+.btn-karosel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control{
+    background-color: greenyellow;
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.carousel-item{
+    height: auto !important;
+    padding-bottom: 20px; 
+}
+
+.tombol-crsl{
+    width: 15px;
+    height: 15px;
+}
+
+.card{
+    background-color: #F1F3FF;
+    border-radius: 10px;
+    border-style: none;
+}
